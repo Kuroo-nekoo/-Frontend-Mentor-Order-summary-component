@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+
+.card {
+  border-radius: 16px;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 7%;
+  font-family: Outfit;
+}
+
+.card__main {
+  padding: 1rem;
+}
+
+.card__illustration {
+  width: 100%;
+  border-radius: 16px 16px 0 0;
+}
+
+.card__title {
+  font-size: 18px;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  margin: 15px 0;
+}
+
+.card__content {
+  color: hsl(224, 23%, 55%);
+  margin: 15px 0;
+  font-size: 14px;
+  font-family: Outfit;
+}
+
+.card__select {
+  display: flex;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 8px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card__select-left {
+  display: flex;
+  font-size: 12px;
+}
+
+.card__select-img {
+  height: 30px;
+}
+
+.card__button {
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  padding: 12px;
+  font-weight: 700;
+  font-size: 13px;
+  margin: 20px 0;
+  font-family: Outfit;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
+}
